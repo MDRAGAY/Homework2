@@ -48,6 +48,14 @@ public class Main {
         var differenceWeight2 = (secondBoxer - firstBoxer) % totalWeight;
         System.out.println("Ваниант 2. Разница в весе " + differenceWeight2 + " кг.");
 
+
+        var totalTime = 640;
+        var oneWokerTime = 8;
+        var allWokers = totalTime / oneWokerTime;
+        System.out.println("Всего работников в компании — " + allWokers + " человек");
+        var moreWokers = allWokers + 94;
+        var moreTime = moreWokers * oneWokerTime;
+        System.out.println("Если в компании работает " + moreWokers + " человека, то всего " + moreTime + " часов работы может быть поделено между сотрудниками");
     }
 
 }
