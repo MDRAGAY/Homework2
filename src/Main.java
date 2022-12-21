@@ -8,5 +8,13 @@ public class Main {
         var paper = 763789;
         System.out.println(paper);
 
+        dog = dog + 4.0;
+        System.out.println(dog);
+        cat = cat + 4;
+        System.out.println(cat);
+        paper = paper + 4;
+        System.out.println(paper);
+
     }
+
 }
